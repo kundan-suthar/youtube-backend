@@ -1,0 +1,76 @@
+# Ignore build outputs
+dist
+build
+out
+coverage
+
+# Node modules
+node_modules
+
+# Logs
+*.log
+yarn-error.log
+npm-debug.log
+pnpm-debug.log
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Package managers
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Version control
+.git
+.gitignore
+
+# Editor configs
+.vscode
+.idea
+
+# Prettier itself
+.prettierignore
+
+# Compiled / generated files
+*.min.js
+*.min.css
+*.bundle.js
+*.bundle.css
+*.map
+
+# Coverage and reports
+coverage
+reports
+jest-html-reporters-*.html
+
+# Cache
+.cache
+.next
+.nuxt
+.temp
+.tmp
+.vite
+.eslintcache
+
+# Framework specific (optional)
+# React Native / Expo
+.expo
+
+# SvelteKit / Remix
+.svelte-kit
+.remix
+
+# Storybook
+storybook-static
+
+# Miscellaneous
+public/static
